@@ -1,12 +1,14 @@
 import react, { useState } from "react";
+import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 
 type AdminStackProps = {
   children: React.ReactNode;
-  sidebarLinks: SidebarLink[];
+  // @ts-ignore
+  links: SidebarLink[];
 };
 
-const Admin = ({ children, sidebarLinks }: AdminStackProps) => {
+const Admin = ({ children, links }: AdminStackProps) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -14,9 +16,9 @@ const Admin = ({ children, sidebarLinks }: AdminStackProps) => {
   };
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen max-w-full">
       <Sidebar
-        links={sidebarLinks}
+        links={links}
         open={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
       />
