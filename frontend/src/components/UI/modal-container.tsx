@@ -12,7 +12,7 @@ const ModalContainer = ({ show, handleClose, children, title }: Props) => {
   return (
     <Modal show={show} onHide={handleClose}>
       <Modal.Header closeButton>
-        <Modal.Title style={{ color: '#e03a3c' }} className='text-xl'>
+        <Modal.Title style={{ color: '#863CCC' }} className='text-xl'>
           {title}
         </Modal.Title>
       </Modal.Header>
