@@ -1,6 +1,5 @@
 <div align="center">
 
-  <img src="https://www.rawpixel.com/image/2343154/free-illustration-png-amethyst-crystal-abstract" alt="logo" width="200" height="auto" />
   <h1>Amethyst</h1>
   
   <p>
@@ -29,19 +28,6 @@
     <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template" alt="license" />
   </a>
 </p>
-   
-<h4>
-    <a href="https://type-shop.vercel.app/">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/hicmtrex/Cooper-Shop">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/hicmtrex/TypeShop-Frontend/issues/">Report Bug</a>
-    <a href="https://github.com/hicmtrex/TypeShop-Frontend/issues/">Frontend</a>
-  <span> · </span>
-    <a href="https://github.com/hicmtrex/TypeShop-Backend">Backend</a>
-  </h4>
-</div>
-
 <br />
 
 <!-- Table of Contents -->
@@ -49,9 +35,7 @@
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#about-the-project)
-  - [Screenshots](#screenshots)
   - [Tech Stack](#tech-stack)
-  - [Features](#features)
   - [Color Reference](#color-reference)
   - [Environment Variables](#environment-variables)
 - [Getting Started](#getting-started)
@@ -61,27 +45,11 @@
   - [Run Locally](#run-locally)
   - [Deployment](#deployment)
 - [License](#license)
-- [Contact](#contact)
 
 <!-- About the Project -->
 
 ## :star2: About the Project
 
-<!-- Screenshots -->
-
-### :camera: Screenshots
-
-<div align="center"> 
-  <img  alt="React" src="https://res.cloudinary.com/hicm/image/upload/v1656520352/typeshop-1_a1qepy.png" />
-</div>
-
-<div align="center"> 
-<img  alt="React" src="https://res.cloudinary.com/hicm/image/upload/v1656520333/typeshop-2_knzlpc.png" />
-</div>
-
-<div align="center"> 
-<img  alt="React" src="https://res.cloudinary.com/hicm/image/upload/v1656520319/typeshop-3_il1xeo.png" />
-</div>
 <!-- TechStack -->
 
 ### :space_invader: Tech Stack
@@ -112,14 +80,6 @@
   </ul>
 </details>
 
-<!-- Features -->
-
-### :dart: Features
-
-- Paypal
-- Google map
-- Content management system
-
 <!-- Color Reference -->
 
 ### :art: Color Reference
@@ -141,10 +101,6 @@ To run this project, you will need to add the following environment variables to
 `MONGODB_URI`
 `PORT`
 `STRIPE_SECRET_KEY`
-
-<!-- Getting Started -->
-
-## :toolbox: Getting Started
 
 <!-- Prerequisites -->
 
@@ -184,7 +140,7 @@ To run tests, run the following command
 Clone the project
 
 ```bash
-  git clone https://github.com/hicmtrex/TypeShop-Frontend
+  git clone https://github.com/moultamissimane/amethyst-e-commerce
 ```
 
 Go to the project directory
@@ -196,13 +152,13 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  npm install
+  yarn 
 ```
 
 Start the server
 
 ```bash
-  npm start
+  yarn dev
 ```
 
 <!-- License -->
@@ -210,17 +166,3 @@ Start the server
 ## :warning: License
 
 Distributed under the License. See LICENSE.txt for more information.
-
-<!-- Contact -->
-
-## :handshake: Contact
-
-Hicm- [@twitter](https://twitter.com/hicmtrex) - hichembouallegue@gmail.com
-
-Project Link: [https://type-shop.vercel.app/](https://type-shop.vercel.app/)
-
-## Support
-
-<a href="https://www.buymeacoffee.com/hicmtrex" target="_blank" style="display: inline-block !important;"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-Be careful and donate just if it is within your possibilities, because there is no refund system. And remember that you don't need to donate, it is just a free choice for you. Thank you!
