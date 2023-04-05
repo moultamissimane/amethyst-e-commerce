@@ -57,12 +57,12 @@ const CartPage = () => {
                         <FaPlus
                           onClick={() => dispatch(addToCart(item))}
                           size={'1.5rem'}
-                          style={{ backgroundColor: '#e03a3c' }}
+                          style={{ backgroundColor: '#863CCC', color: '#fff' }}
                           className='icons__cart  m-2 rounded-circle text-white p-1 cursor-pointer'
                         />
                         <FaMinus
                           size={'1.5rem'}
-                          style={{ backgroundColor: '#e03a3c' }}
+                          style={{ backgroundColor: '#863CCC', color: '#fff' }}
                           className={`icons__cart m-2 rounded-circle text-white p-1 cursor-pointer `}
                           onClick={() => dispatch(removeFromCart(item))}
                         />
@@ -93,7 +93,7 @@ const CartPage = () => {
                     </ListGroup.Item>
                     <ListGroup.Item className=' d-flex justify-content-between align-items-center'>
                       <Button
-                        style={{ backgroundColor: '#e03a3c' }}
+                        style={{ backgroundColor: '#863CCC', color: '#fff' }}
                         disabled={cartItems.length === 0}
                         onClick={() => navigate('/shipping-address')}
                         className='w-1/2 text-white me-2'
@@ -102,7 +102,7 @@ const CartPage = () => {
                         Checkout
                       </Button>
                       <Button
-                        style={{ backgroundColor: '#e03a3c' }}
+                        style={{ backgroundColor: '#863CCC', color: '#fff' }}
                         onClick={() => navigate('/')}
                         className='w-1/2 text-white me-2'
                         variant='outline-none'
