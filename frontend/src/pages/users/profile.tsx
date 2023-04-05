@@ -153,7 +153,7 @@ const Profile = () => {
                     </Form.Group>
 
                     <Button
-                      style={{ backgroundColor: '#e03a3c', color: '#fff' }}
+                      style={{ backgroundColor: '#863CCC', color: '#fff' }}
                       variant='outline-none'
                       type='submit'
                       className='mt-3 w-full'
@@ -165,7 +165,7 @@ const Profile = () => {
               </Card>
             </Col>
             <Col md={7} lg={8}>
-              <TableContainer cols={cols}>
+              <TableContainer cols={cols} >
                 {orders.map((order) => (
                   <tr key={order._id}>
                     <td>{order._id}</td>
