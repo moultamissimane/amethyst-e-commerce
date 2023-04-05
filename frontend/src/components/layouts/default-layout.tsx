@@ -1,6 +1,5 @@
 import { Fragment, ReactNode } from 'react';
 import { useLocation } from 'react-router-dom';
-import Brands from '../brands/brands';
 import Carousels from '../carousels';
 import DownFooter from '../footer/down-footer';
 import Footer from '../footer/footer';
@@ -28,10 +27,10 @@ const DefaultLayout = ({
       <main id='main' className='py-3'>
         {children}
       </main>
-      {isHome && <Brands />}
+      {isHome}
       <div id='footer'>
         {isHome && <DownFooter />}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Fragment>
   );
