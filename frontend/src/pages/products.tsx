@@ -101,7 +101,7 @@ const Products = () => {
                   <Form.Control
                     onChange={(e: any) => setSearch(e.target.value)}
                     className='me-2'
-                    placeholder='Search...'
+                    placeholder='Search any product...'
                     value={search}
                   />
                 </div>
