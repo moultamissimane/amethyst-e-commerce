@@ -79,7 +79,7 @@ const DownFooter = () => {
                 Tamen quem nulla quae legam multos aute sint culpa legam noster
                 magna
               </p>
-              <form onSubmit={() => toast.success('thanks for yr Subscrition')}>
+              <form onSubmit={() => toast.success('thanks for yr Subscription')}>
                 <input
                   type='email'
                   required
