@@ -30,7 +30,7 @@
   </a>
 </p>
 <br />
-
+</div>
 <!-- Table of Contents -->
 
 # :notebook_with_decorative_cover: Table of Contents
@@ -54,7 +54,6 @@
 <!-- TechStack -->
 
 ### :space_invader: Tech Stack
-<div align="center">
 <details>
   <summary>Client</summary>
   <ul>
@@ -80,7 +79,6 @@
     <li><a href="https://www.mongodb.com/">MongoDB</a></li>
   </ul>
 </details>
-</div>
 <!-- Color Reference -->
 
 ### :art: Color Reference
