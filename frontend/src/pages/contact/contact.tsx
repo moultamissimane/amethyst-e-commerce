@@ -11,8 +11,8 @@ const Contact = () => {
       <section id='contact' className='contact'>
         <Container data-aos='fade-up'>
           <div className='section-title'>
-            <h2 className='text-center'>Contact</h2>
-            <p>
+            <h2 className='text-center mb-10'>Contact</h2>
+            <p className='mb-10'>
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
               quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
@@ -23,30 +23,26 @@ const Contact = () => {
               <Row>
                 <Col md={12}>
                   <div className='info-box bg-white'>
-                    <i className='bx bx-map' />
+                    <i className='bx bx-map' style={{  color: '#863CCC' }}/>
                     <h3>Our Address</h3>
                     <p>A108 Adam Street, New York, NY 535022</p>
                   </div>
                 </Col>
                 <Col md={6}>
                   <div className='info-box mt-4 bg-white'>
-                    <i className='bx bx-envelope' />
+                    <i className='bx bx-envelope' style={{  color: '#863CCC' }}/>
                     <h3>Email Us</h3>
                     <p>
-                      info@example.com
-                      <br />
-                      contact@example.com
+                      moultamissimane01@gmail.com
                     </p>
                   </div>
                 </Col>
                 <Col md={6}>
                   <div className='info-box mt-4 bg-white'>
-                    <i className='bx bx-phone-call' />
+                    <i className='bx bx-phone-call' style={{  color: '#863CCC' }}/>
                     <h3>Call Us</h3>
                     <p>
-                      +1 5589 55488 55
-                      <br />
-                      +1 6678 254445 41
+                      +212 69 55488 55
                     </p>
                   </div>
                 </Col>
@@ -112,7 +108,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='text-center'>
-                  <button type='submit'>Send Message</button>
+                  <button type='submit' style={{ backgroundColor: '#863CCC', color: '#fff' }}>Send Message</button>
                 </div>
               </Form>
             </Col>
