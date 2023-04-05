@@ -8,12 +8,12 @@ const Footer = () => {
         <div className='copyright'>
           © Copyright{' '}
           <strong>
-            <span>Type Shop</span>
+            <span>Amethyst</span>
           </strong>
           . All Rights Reserved
         </div>
         <div className='credits'>
-          Designed by <a href='#'>Type Shop</a>
+          Designed by <a href='#'>Amethyst</a>
         </div>
       </div>
       <div className='social-links text-center text-md-end pt-3 pt-md-0'>
