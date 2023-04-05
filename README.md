@@ -1,7 +1,7 @@
 <div align="center">
 
-  <img src="https://res.cloudinary.com/hicm/image/upload/v1656520613/LogoMakr-6Tit9e_esyjac.png" alt="logo" width="200" height="auto" />
-  <h1>Type Shop </h1>
+  <img src="https://www.rawpixel.com/image/2343154/free-illustration-png-amethyst-crystal-abstract" alt="logo" width="200" height="auto" />
+  <h1>Amethyst</h1>
   
   <p>
     The best E-commerce store using Mern Stack with typescript
