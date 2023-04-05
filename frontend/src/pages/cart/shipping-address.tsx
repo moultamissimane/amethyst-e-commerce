@@ -82,7 +82,7 @@ const ShippingAddress = () => {
           />
         </Form.Group>
         <Button
-          style={{ backgroundColor: '#e03a3c', color: '#fff' }}
+          style={{ backgroundColor: '#863CCC', color: '#fff' }}
           variant='outline-none'
           type='submit'
           className='mt-4 w-full'
