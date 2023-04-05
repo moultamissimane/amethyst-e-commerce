@@ -132,8 +132,8 @@ const OrderDetails = () => {
                           description={`Total Price ${formatCurrencry(
                             order?.totalPrice
                           )}`}
-                          name='Type Shop'
-                          image='/LogoMakr-6Tit9e.png'
+                          name='Amethyst'
+                          image='/image-from-rawpixel.png'
                           stripeKey={import.meta.env.VITE_API_STRIPE}
                           token={tokenHandler}
                         />
