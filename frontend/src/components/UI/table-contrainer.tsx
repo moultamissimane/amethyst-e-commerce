@@ -11,7 +11,7 @@ const TableContainer = ({ children, cols }: Props) => {
     <Card className=' shadow border-0 mt-5 '>
       <Table responsive hover className='table-nowrap'>
         <thead
-          style={{ backgroundColor: '#e03a3c' }}
+          style={{ backgroundColor: '#863CCC', color: '#fff' }}
           className='thead-light text-white'
         >
           <tr>
