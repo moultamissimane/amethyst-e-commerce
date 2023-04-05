@@ -16,6 +16,7 @@ const Paginate = ({ pages, page, isAdmin = false, keyword = '' }: Props) => {
           {[...Array(pages).keys()].map((x) => (
             <LinkContainer
               key={x + 1}
+              style={{color: '#863CCC'}}
               to={
                 !isAdmin
                   ? keyword
