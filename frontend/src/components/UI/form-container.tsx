@@ -16,7 +16,7 @@ const FormContainer = (props: FormTypes) => {
         <Row className=' justify-content-center py-6'>
           <Col md={6}>
             <Card>
-              <h1 style={{ color: '#e03a3c' }} className='text-center my-3'>
+              <h1 style={{ color: '#863CCC' }} className='text-center my-3'>
                 {props.title}
               </h1>
               {props.image && (
