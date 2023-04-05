@@ -8,6 +8,7 @@
   
   
 <!-- Badges -->
+
 <p>
   <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
@@ -53,7 +54,7 @@
 <!-- TechStack -->
 
 ### :space_invader: Tech Stack
-
+<div align="center">
 <details>
   <summary>Client</summary>
   <ul>
@@ -79,7 +80,7 @@
     <li><a href="https://www.mongodb.com/">MongoDB</a></li>
   </ul>
 </details>
-
+</div>
 <!-- Color Reference -->
 
 ### :art: Color Reference
