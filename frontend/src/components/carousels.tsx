@@ -13,21 +13,21 @@ const Carousels = () => {
       <Carousel.Item className='carsouel__item'>
         <img
           className='d-block w-full '
-          src='https://cdn.shopify.com/s/files/1/2301/4381/files/MSI_BANNER_1080x.jpg?v=1641895460'
+          src='../../public/images/Amethyst.png'
           alt='First slide'
         />
       </Carousel.Item>
       <Carousel.Item className='carsouel__item'>
         <img
-          className='d-block w-full '
-          src='/images/p2.jpg'
+          className='img-fluid d-block w-full '
+          src='../../public/images/Sale_Banner.jpg'
           alt='Second slide'
         />
       </Carousel.Item>
       <Carousel.Item className='carsouel__item'>
         <img
           className='d-block w-full '
-          src='https://www.sammobile.com/wp-content/uploads/2020/01/galaxy-s20-wallpaper-note-10.jpg'
+          src='../../public/images/Amet.jpg'
           alt='Third slide'
         />
       </Carousel.Item>
