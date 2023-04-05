@@ -12,7 +12,7 @@ const RedButton = ({ children, onClick, className, disabled }: ButtonType) => {
   return (
     <Button
       onClick={onClick}
-      style={{ backgroundColor: '#e03a3c', color: '#fff' }}
+      style={{ backgroundColor: '#863CCC', color: '#fff' }}
       variant='outline-none'
       className={className}
       disabled={disabled}
