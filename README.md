@@ -115,7 +115,7 @@ This project uses Yarn as package manager
 
 ### :gear: Installation
 
-Install my-project with npm
+Install my-project with yarn
 
 ```bash
   yarn install my-project
