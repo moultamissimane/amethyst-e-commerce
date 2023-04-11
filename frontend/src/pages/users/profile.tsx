@@ -169,7 +169,6 @@ const Profile = () => {
                 {orders.map((order) => (
                   <tr key={order._id}>
                     <td>{order._id}</td>
-
                     <td>{formatCurrencry(order?.totalPrice)}</td>
                     <td>{order?.shippingAddress?.address}</td>
                     <td>
