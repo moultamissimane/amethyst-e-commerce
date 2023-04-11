@@ -6,6 +6,10 @@ import { useAppDispatch, useAppSelector } from '../../redux';
 import { reset } from '../../redux/cart/cart-slice';
 import { userLogout } from '../../redux/users/login-slice';
 import { NavLink } from 'react-router-dom';
+import GradeIcon from '@mui/icons-material/Grade';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import SpaceDashboardIcon from '@mui/icons-material/SpaceDashboard';
 
 const Sidebar = () => {
   const dispatch = useAppDispatch();
@@ -41,8 +45,9 @@ const Sidebar = () => {
           className='navbar-brand py-lg-2 mb-lg-5 px-lg-6 me-0 d-flex align-items-center'
           to='/'
         >
-          <h2 className='logo text-white'>
-            <span className='text-danger'>Type</span> Shop
+          <img src="/image-from-rawpixel.png" alt="" />
+          <h2 className='logo mr-5 text-white'>
+            Amethyst
           </h2>
         </Link>
 
@@ -50,12 +55,14 @@ const Sidebar = () => {
           <ul className='navbar-nav'>
             <li className='nav-item  '>
               <Link className='nav-link p-5' to='/dashboard'>
-                <AiFillDashboard className='me-2' size={'1.5rem'} /> Accueil
+                {/* @ts-ignore */}
+                <SpaceDashboardIcon className='me-2' size={'1.5rem'} /> Dahboard
               </Link>
             </li>
             <li className='nav-item '>
               <Link className='nav-link p-5' to='/dashboard/product-list'>
-                <HiUsers className='me-2' size={'1.5rem'} /> Products
+                {/* @ts-ignore */}
+                <ShoppingCartIcon className='me-2' size={'1.5rem'} /> Products
               </Link>
             </li>
 
@@ -66,7 +73,8 @@ const Sidebar = () => {
             </li>
             <li className='nav-item '>
               <Link className='nav-link p-5' to='/dashboard/orders-list'>
-                <HiUsers className='me-2' size={'1.5rem'} /> Orders
+                {/* @ts-ignore */}
+                <ShoppingBasketIcon className='me-2' size={'1.5rem'} /> Orders
               </Link>
             </li>
           </ul>
