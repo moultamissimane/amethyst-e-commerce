@@ -54,12 +54,12 @@ const Register = () => {
   return (
     <FormContainer
       meta='register for free'
-      image='https://blog.hubspot.com/hubfs/ecommerce-1.png'
-      title='Register For Free'
+      // image='https://blog.hubspot.com/hubfs/ecommerce-1.png'
+      title='Register '
     >
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Form.Group controlId='name'>
-          <Form.Label>Username</Form.Label>
+          <Form.Label>Full Name</Form.Label>
           <Form.Control
             placeholder='Enter name'
             {...register('name')}
@@ -79,7 +79,7 @@ const Register = () => {
           <p className='invalid-feedback'>{errors.email?.message}</p>
         </Form.Group>
         <Form.Group controlId='password'>
-          <Form.Label>Mot de Passe </Form.Label>
+          <Form.Label>Password</Form.Label>
 
           <Form.Control
             type='password'
@@ -99,13 +99,13 @@ const Register = () => {
             className={errors.confirmPassword?.message && 'is-invalid'}
           />
           <p className='invalid-feedback'>{errors.confirmPassword?.message}</p>
-          <Link to='/login' className='float-end me-2 mt-1'>
+          <Link to='/login' className=' me-2 mt-1'>
             Already have an Account ? Login
           </Link>
         </Form.Group>
 
         <Button
-          style={{ backgroundColor: '#e03a3c', color: '#fff' }}
+          style={{ backgroundColor: '#863CCC', color: '#fff' }}
           variant='outline-none'
           type='submit'
           className='mt-4 w-full'
