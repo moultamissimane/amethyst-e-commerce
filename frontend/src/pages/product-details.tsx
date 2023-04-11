@@ -138,7 +138,7 @@ const ProductDetails = () => {
             <Col md={5}>
               <ListGroup className='bg-white p-3'>
                 <ListGroup.Item>
-                  <h3 style={{ color: '#e03a3c' }}>Comment</h3>
+                  <h3 style={{ color: '#863CCC' }}>Comment</h3>
                   {userInfo ? (
                     <Form onSubmit={onSubmit}>
                       <Form.Group controlId='rating'>
@@ -165,7 +165,7 @@ const ProductDetails = () => {
                         />
                       </Form.Group>
                       <Button
-                        style={{ backgroundColor: '#e03a3c', color: '#fff' }}
+                        style={{ backgroundColor: '#863CCC', color: '#fff' }}
                         className='mt-2 w-full'
                         variant='outline-none'
                         type='submit'
@@ -174,9 +174,12 @@ const ProductDetails = () => {
                       </Button>
                     </Form>
                   ) : (
+                    
                     <Message>
                       You must login first to feedback{' '}
-                      <Link to='/login' className='ms-2'>
+                      <Link to='/login' className='ms-2'
+                        style={{ color: '#863CCC' }}
+                      >
                         Login Now
                       </Link>
                     </Message>
