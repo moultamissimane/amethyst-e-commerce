@@ -47,4 +47,4 @@ export const admin = asyncHandler(
       throw new Error('Not authorized, no admin');
     }
   }
-);
+); 

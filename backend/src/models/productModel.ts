@@ -21,7 +21,7 @@ interface IProduct {
 
 const reviewSchema = new Schema<Review>(
   {
-    name: { type: String, required: true, unique: true },
+    name: { type: String, required: true },
     rating: { type: Number, required: true },
     comment: { type: String, required: true },
     user: { type: Schema.Types.ObjectId, required: true, ref: 'User' },
@@ -50,3 +50,6 @@ const productSchema = new Schema<IProduct>(
 const Product = model<IProduct>('Product', productSchema);
 
 export default Product;
+
+// drop index
+// Product.collection.dropIndexes(); 
