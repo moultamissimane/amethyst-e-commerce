@@ -8,11 +8,13 @@ type Props = {
 
 const TableContainer = ({ children, cols }: Props) => {
   return (
-    <Card className=' shadow border-0 mt-5 '>
-      <Table responsive hover className='table-nowrap'>
+    // <Card className='shadow border-0 mt-5 '>
+      <Table responsive hover
+      style={{borderRadius: '20px'}}
+      className=' border-2 rounded-xl mt-14'>
         <thead
-          style={{ backgroundColor: '#863CCC', color: '#fff' }}
-          className='thead-light text-white'
+          style={{ backgroundColor: '#863CCC', color: '#fff', borderRadius: '20px' }}
+          className=' text-white'
         >
           <tr>
             {cols.map((col: any) => (
@@ -24,7 +26,7 @@ const TableContainer = ({ children, cols }: Props) => {
         </thead>
         <tbody>{children}</tbody>
       </Table>
-    </Card>
+    // </Card>
   );
 };
 
