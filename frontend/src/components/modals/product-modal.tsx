@@ -58,8 +58,9 @@ const ProductModal = ({ show, handleClose, setRefresh }: Props) => {
   };
 
   const onSubmit = (data: FormValues) => {
+    console.log(data);
     authAxios
-      .post('/products', { ...data, image })
+      .post('/products', { ...data, image})
       .then((res) => {
         toast.success('Product has beend created');
         setRefresh((prev: any) => (prev = !prev));
@@ -75,8 +76,9 @@ const ProductModal = ({ show, handleClose, setRefresh }: Props) => {
           <Form.Label>Name</Form.Label>
           <Form.Control
             type='text'
-            placeholder='doe'
+            placeholder='Amethyst'
             {...register('name')}
+            name='title'
             className={errors.name?.message && 'is-invalid'}
           />
           <p className='invalid-feedback'>{errors.name?.message}</p>
@@ -94,7 +96,7 @@ const ProductModal = ({ show, handleClose, setRefresh }: Props) => {
           <Form.Label>Brand</Form.Label>
           <Form.Control
             type='text'
-            placeholder='Msi'
+            placeholder='ear-45'
             {...register('brand')}
             className={errors.brand?.message && 'is-invalid'}
           />
@@ -104,7 +106,7 @@ const ProductModal = ({ show, handleClose, setRefresh }: Props) => {
           <Form.Label>Category</Form.Label>
           <Form.Control
             type='text'
-            placeholder='Graphics'
+            placeholder='Earrings'
             {...register('category')}
             className={errors.category?.message && 'is-invalid'}
           />
@@ -133,12 +135,12 @@ const ProductModal = ({ show, handleClose, setRefresh }: Props) => {
           <p className='invalid-feedback'>{errors.description?.message}</p>
         </Form.Group>
         <Button
-          style={{ backgroundColor: '#e03a3c', color: '#fff' }}
+          style={{ backgroundColor: '#863CCC', color: '#fff' }}
           variant='outline-none'
           type='submit'
           className='mt-3 w-full text-white'
         >
-          Ajouter
+          Add Product
         </Button>
       </Form>
     </ModalContainer>
