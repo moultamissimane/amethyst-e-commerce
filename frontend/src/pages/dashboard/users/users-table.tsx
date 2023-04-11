@@ -54,7 +54,7 @@ const UserTable = () => {
         <Row className='py-3'>
           <h3 className='d-flex justify-content-between align-items-center'>
             <span>User List</span>
-            {/* <Button size='sm'>Add User</Button> */}
+            <Button style={{ backgroundColor: '#863CCC' }} size='sm'>Add User</Button>
           </h3>
           <TableContainer cols={cols}>
             {users.map((user) => (
