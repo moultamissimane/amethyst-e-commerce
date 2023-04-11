@@ -20,7 +20,7 @@ const Carousels = () => {
       <Carousel.Item className='carsouel__item'>
         <img
           className='img-fluid d-block w-full '
-          src='../../public/images/Sale_Banner.jpg'
+          src='../../public/images/Am.png'
           alt='Second slide'
         />
       </Carousel.Item>
