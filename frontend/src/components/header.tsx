@@ -29,7 +29,7 @@ const Header = () => {
           {/* Logo */}
           <Navbar.Brand as={NavLink} to='/'>
             <img
-              src='/imagerawpixel.png'
+              src='/image-from-rawpixel.png'
               className='avatar rounded me-lg-10'
               alt='logo'
             />
@@ -82,7 +82,8 @@ const Header = () => {
                     <Nav.Link
                       as={NavLink}
                       to='/login'
-                      className='btn btn-secondary btn-sm text-white me-3 ms-5 '
+                      style={{ backgroundColor: '#863CCC' }}
+                      className='btn btn-secondary btn-sm text-white p-2 me-3 ms-5 '
                     >
                       Login
                     </Nav.Link>
@@ -92,8 +93,8 @@ const Header = () => {
                     <Nav.Link
                       as={NavLink}
                       to='/register'
-                      style={{ backgroundColor: '#e03a3c' }}
-                      className='btn btn-sm text-white  ms-xs-3 '
+                      style={{ backgroundColor: '#863CCC' }}
+                      className='btn btn-sm text-white p-2 ms-xs-3 '
                     >
                       Register
                     </Nav.Link>
@@ -105,7 +106,9 @@ const Header = () => {
                   id='basic-nav-dropdown'
                 >
                   {userInfo.isAdmin && (
-                    <NavDropdown.Item as={NavLink} to='/dashboard'>
+                    <NavDropdown.Item
+                    className='hover:bg-[#863CCC]'
+                      as={NavLink} to='/dashboard'>
                       Dashboard
                     </NavDropdown.Item>
                   )}
