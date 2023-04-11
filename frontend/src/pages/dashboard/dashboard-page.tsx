@@ -52,7 +52,7 @@ const DashboardPage = () => {
                 13%
               </span>
               <span className='text-nowrap text-xs text-muted'>
-                Depuis le mois dernier
+                Since last month
               </span>
             </div>
           </Card.Body>
@@ -80,7 +80,7 @@ const DashboardPage = () => {
                 30%
               </span>
               <span className='text-nowrap text-xs text-muted'>
-                Depuis le mois dernier
+                Since last month
               </span>
             </div>
           </Card.Body>
@@ -108,7 +108,7 @@ const DashboardPage = () => {
                 -5%
               </span>
               <span className='text-nowrap text-xs text-muted'>
-                Depuis le mois dernier
+                Since last month
               </span>
             </div>
           </Card.Body>
