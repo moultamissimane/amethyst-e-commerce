@@ -44,8 +44,8 @@ const Login = () => {
   return (
     <FormContainer
       meta='Login your account'
-      image='https://blog.hubspot.com/hubfs/ecommerce-1.png'
-      title='Login Your Account'
+      // image='https://blog.hubspot.com/hubfs/ecommerce-1.png'
+      title='Welcome back'
     >
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Form.Group controlId='email'>
@@ -53,7 +53,7 @@ const Login = () => {
 
           <Form.Control
             type='email'
-            placeholder='Enter email'
+            placeholder='shop@gmail.com'
             {...register('email')}
             className={errors.email?.message && 'is-invalid'}
           />
@@ -61,7 +61,7 @@ const Login = () => {
         </Form.Group>
 
         <Form.Group controlId='password'>
-          <Form.Label>Mot de Passe </Form.Label>
+          <Form.Label>Password</Form.Label>
           <Form.Control
             type='password'
             placeholder='*******'
@@ -69,7 +69,7 @@ const Login = () => {
             className={errors.password?.message && 'is-invalid'}
           />
           <p className='invalid-feedback'>{errors.password?.message}</p>
-          <Link to='/register' className='float-end me-2 mt-1'>
+          <Link to='/register' className=' me-2 mt-1'>
             Dont have an Account ? Register
           </Link>
         </Form.Group>
@@ -77,7 +77,7 @@ const Login = () => {
         <Button
           type='submit'
           className='mt-4 w-full'
-          style={{ backgroundColor: '#e03a3c', color: '#fff' }}
+          style={{ backgroundColor: '#863CCC', color: '#fff' }}
           variant='outline-none'
         >
           Submit
