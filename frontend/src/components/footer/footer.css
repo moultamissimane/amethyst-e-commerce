@@ -19,7 +19,7 @@
   font-weight: 700;
 }
 #footer .footer-top .footer-contact h3 span {
-  color: #e03a3c;
+  color: #863CCC;
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
@@ -37,11 +37,12 @@
   content: '';
   position: absolute;
   display: block;
-  width: 20px;
-  height: 2px;
-  background: #e03a3c;
+  width: 30px;
+  height: 3px;
+  background: #863CCC;
   bottom: 0;
   left: 0;
+  margin-bottom: 15px;
 }
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
@@ -106,14 +107,14 @@
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #e03a3c;
+  background: #863CCC;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type='submit']:hover {
-  background: #e35052;
+  background: #863CCC;
 }
 #footer .credits {
   padding-top: 5px;
@@ -134,7 +135,7 @@
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #e03a3c;
+  background: #863CCC;
   color: #fff;
   text-decoration: none;
 }
