@@ -23,7 +23,7 @@ export const getUsersList = createAsyncThunk('users/list', async () => {
       return res.data;
     }
   } catch (error) {
-    const message = setError(error);
+    const message = setError(error || 'Unknown error');
     toast.error(message);
   }
 });
