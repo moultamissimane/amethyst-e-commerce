@@ -14,9 +14,9 @@ const Topbar = () => {
                 <Navbar.Brand href='#home'></Navbar.Brand>
               </h1>
             </div>
-            <div className='col-sm-6 col-12 text-sm-end text-xl'>
+            {/* <div className='col-sm-6 col-12 text-sm-end text-xl'>
               Admin Dashboard
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>
