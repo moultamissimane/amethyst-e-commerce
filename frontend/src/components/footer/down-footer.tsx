@@ -10,19 +10,11 @@ const DownFooter = () => {
           <Row>
             <Col lg={3} md={6} xs={12} className=' footer-contact'>
               <h3>
-                <Image width={100} src='/LogoMakr-4g0P6C.png' alt='' />
+                <Image width={100} src='/image-from-rawpixel.png' alt='' />
               </h3>
               <p>
-                2 Allée Andersen
                 <br />
-                69780 Mions Lyon
-                <br />
-                France
-                <br />
-                <br />
-                <strong>Phone:</strong> 06 76 56 48 93
-                <br />
-                <strong>Email:</strong> typeshop@me.com
+                <strong>Email:</strong> moultamissimane01@gmail.com
                 <br />
               </p>
             </Col>
@@ -79,7 +71,7 @@ const DownFooter = () => {
                 Tamen quem nulla quae legam multos aute sint culpa legam noster
                 magna
               </p>
-              <form onSubmit={() => toast.success('thanks for yr Subscription')}>
+              <form onSubmit={() => toast.success('thanks for your Subscription')}>
                 <input
                   type='email'
                   required
