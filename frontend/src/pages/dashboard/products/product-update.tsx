@@ -54,7 +54,9 @@ const ProductUpdate = () => {
       <Row className=' justify-content-center py-6'>
         <Col lg={5} md={6}>
           <Card>
-            <h1 className='text-center text-primary my-3'>Update Product</h1>
+            <h1
+              style={{ color: '#863CCC' }}
+              className='text-center my-3'>Update Product</h1>
             <Card.Body>
               <Form onSubmit={handleSubmit(onSubmit)}>
                 <Form.Group>
@@ -132,8 +134,10 @@ const ProductUpdate = () => {
                     {errors.description?.message}
                   </p>
                 </Form.Group>
-                <Button type='submit' className='mt-3 w-full text-white'>
-                  Ajouter
+                <Button
+                  style={{ backgroundColor: '#863CCC' }}
+                  type='submit' className='mt-3 w-full text-white'>
+                  Update Product
                 </Button>
               </Form>
             </Card.Body>
