@@ -1,3 +1,5 @@
+
+
 @import '@webpixels/css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css');
@@ -42,7 +44,8 @@ a {
 
 .nav-link span:hover {
   font-weight: bold;
-  color: #e03a3c !important;
+  color: #863CCC !important;
+
 }
 
 .dropdown-item {
@@ -51,7 +54,7 @@ a {
 
 .dropdown-item:hover {
   color: #fff;
-  background-color: #e03a3c !important;
+  background-color: #863CCC !important;
 }
 
 @media (max-height: 760px) {
