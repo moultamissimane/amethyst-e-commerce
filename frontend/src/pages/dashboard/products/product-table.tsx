@@ -62,7 +62,7 @@ function ProductTable() {
           <h3 className='d-flex justify-content-between align-items-center'>
             <span>Product List</span>
             <Button
-              style={{ backgroundColor: '#e03a3c', color: '#fff' }}
+              style={{ backgroundColor: '#863CCC', color: '#fff' }}
               variant='outline-none'
               onClick={onOpen}
               size='sm'
