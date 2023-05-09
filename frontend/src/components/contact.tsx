@@ -1,4 +1,5 @@
 import { Col, Container, Form, Row } from 'react-bootstrap';
+import DownFooter from './footer/down-footer';
 
 const Contact = () => {
   return (
@@ -105,6 +106,7 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
+      <DownFooter />
     </section>
   );
 };
