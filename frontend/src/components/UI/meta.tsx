@@ -8,8 +8,8 @@ type Props = {
 };
 
 const Meta = ({
-  title = 'Welcome To Type-shop',
-  description = 'the best online store :)',
+  title = 'Welcome To Amethyst',
+  description = 'Our platform provides excellent customer service and fast shipping, making it a reliable choice for customers looking for a hassle-free shopping experience',
   keywords,
 }: Props) => {
   return (
