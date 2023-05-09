@@ -118,7 +118,7 @@ const ProductDetails = () => {
           <Row className='mt-2'>
             <Col md={7}>
               <Card>
-                <Card.Body>
+                <Card.Body style={{borderRadius:'25px'}}>
                   <h3 style={{ color: '#e03a3c' }}>Reviews</h3>
                   <ListGroup variant='flush'>
                     {product.reviews.map((review) => (
