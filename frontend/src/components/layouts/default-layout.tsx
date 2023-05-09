@@ -24,7 +24,7 @@ const DefaultLayout = ({
       <Meta title={title} description={description} />
       <Header />
       {isHome && <Carousels />}
-      <main id='main' className='py-3'>
+      <main id='main' className='py-3' style={{backgroundColor: "#EEE7DA" }}>
         {children}
       </main>
       {isHome}
