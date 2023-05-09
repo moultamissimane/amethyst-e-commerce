@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Carousel } from 'react-bootstrap';
+// import { Carousel } from 'react-bootstrap';
 
 const Carousels = () => {
   const [index, setIndex] = useState(0);
@@ -31,16 +31,22 @@ const Carousels = () => {
     //       alt='Third slide'
     //     />
     //   </Carousel.Item>
+    // <h1>DISCOVER WORLD’S BEST JEWELRY</h1>
+    // <p>Our platform provides excellent customer service and fast shipping,
+    // making it a reliable choice for customers looking for a hassle-free shopping experience.</p>
     // </Carousel>
-    <div className='container flex justify-between items-center' style={{backgroundColor: "#EEE7DA", }}>
-      <div className=''>
-        <h1>DISCOVER WORLD’S BEST JEWELRY</h1>
+    <div className='' style={{ backgroundColor: "#EEE7DA", }}>
+
+    <div className='container row justify-content-between ' >
+      <div className='col-lg-4 col-md-5 col-12 mr-9'>
+        <h1 className=''>DISCOVER WORLD’S BEST JEWELRY</h1>
         <p>Our platform provides excellent customer service and fast shipping,
           making it a reliable choice for customers looking for a hassle-free shopping experience.</p>
       </div>
-      <div className=''>
+      <div className='col-lg-8 col-md-7'>
         <img width={400} height={400} src="../public/images/home-image.png" alt="" />
       </div>
+    </div>
     </div>
   );
 };
