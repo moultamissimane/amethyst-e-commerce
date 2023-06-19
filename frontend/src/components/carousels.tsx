@@ -35,15 +35,15 @@ const Carousels = () => {
     // <p>Our platform provides excellent customer service and fast shipping,
     // making it a reliable choice for customers looking for a hassle-free shopping experience.</p>
     // </Carousel>
-    <div className='' style={{ backgroundColor: "#EEE7DA", }}>
+    <div className='d-flex align-items-center justify-content-center mt-10' style={{ backgroundColor: "#181917", }}>
 
-    <div className='row justify-content-between ' >
-      <div className='col-lg-4 col-md-5 col-12 mr-9'>
-        <h1 className=''>DISCOVER WORLD’S BEST JEWELRY</h1>
-        <p>Our platform provides excellent customer service and fast shipping,
+    <div className='row  container' >
+      <div className='col-lg-4 col-md-5 col-12  mr-20'>
+        <h1 className='ml-20 text-white'>DISCOVER WORLD’S BEST JEWELRY</h1>
+        <p className='text-white'>Our platform provides excellent customer service and fast shipping,
           making it a reliable choice for customers looking for a hassle-free shopping experience.</p>
       </div>
-      <div className='d-flex col-lg-8 col-md-7 mt-20 justify-content-end'>
+      <div className='d-flex col-lg-8 col-md-7  justify-content-end'>
         <img width={400} height={400} src="/images/home-image.png" alt="" />
       </div>
     </div>
